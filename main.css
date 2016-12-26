@@ -1,0 +1,315 @@
+* {margin: 0; padding: 0;}
+
+body {background-color: #edf0f5;}
+
+a {
+	text-decoration: none;
+}
+
+a:visited {
+	color: #269;
+}
+
+/*********************************************************
+*********** HEAD OF THE PAGE *************************/
+
+header {
+  background-color: #3c5a96;
+  min-width: 980px;
+  height: 82px; 
+}
+
+.header-wrapper {
+  width: 980px;
+  height: 65px;
+  margin: 0 auto;
+  padding-top: 13px;
+}
+
+.fb {
+	float: left;
+	color: white;
+	position: relative;
+	margin: 10px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 42px;
+
+}
+
+.login-form {float: right; font-size: 13px;}
+.login-form input {
+	height: 23px;
+	width: 150px;
+	border: black solid 1px;
+	margin-left: 5px;
+	margin-bottom: 3px;
+
+}
+
+input.login-btn {
+	height: 24px;
+	width: 46px;
+	padding: 1px;
+	font-size: 12px;
+	background-color: #4267b2;
+	color: white;
+	border: #313131 solid 1px;	
+}
+
+input.login-btn:hover {
+	background-color: #365899;
+}
+
+#forgot-account {
+	color: #9db5ce;
+	margin-left: 167px;
+	text-decoration: none;
+}
+
+#forgot-account:hover {
+	text-decoration: underline;
+}
+
+
+/*********************************************************
+*********** CONTENT STARTS HERE *************************/
+
+#wrapper {
+	width: 980px;
+	height: 636px;
+	margin: 0 auto;
+}
+
+
+/*********************************************************
+*********** LEFT CONTENT *************************/
+
+
+#left-content {
+
+	float: left;
+	width: 565px;
+	height: 650px;
+	margin-right: 10px;
+/*	border: 3px solid red;*/
+	font-family: sans-serif;
+}
+
+#left-content h2 {
+	font-size: 28px;
+	color: #363636;
+	padding: 42px 0 24px;
+	line-height: 36px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#left-content img {
+	float: left;
+	margin-right: 25px;
+}
+
+.items-left {
+	padding: 18px;
+}
+
+.bold-text {
+	font-weight: bold;
+}
+
+
+.gray-text-p {color: gray;}
+
+
+
+/*********************************************************
+*********** RIGHT CONTENT *************************/
+
+
+
+
+#right-content {
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.free {
+	font-size: 19px;
+	margin-top: -18px;
+	color: #535353;
+}
+
+.first-last {
+	width: 194px;
+	height: 39px;
+	border-color: #bdc7d8;
+    border-radius: 5px;
+	border-style: solid;
+}
+
+
+.lower-input {
+	width: 399px;
+	height: 39px;
+	margin-top: 25px;
+	margin-bottom: -10px;
+	border-color: #bdc7d8;
+    border-radius: 5px;
+	border-style: solid;
+}
+
+#bd-title {
+	margin-bottom: 7px;
+	font-weight: normal;
+	font-size: 18px;
+	font-family: sans-serif;
+}
+
+#month {
+	width: 65px;
+	height: 30px;
+	font-size: 14px;
+}
+
+#day {
+	width: 50px;
+	height: 30px;
+	font-size: 14px;
+}
+
+
+#year {
+	width: 55px;
+	height: 30px;
+	font-size: 14px;
+}
+
+#why-link {
+	font-family: sans-serif;
+	font-size: 11px;
+	display: inline-block;
+	margin-top: -10px;
+	margin-left: 5px;
+	margin-bottom: 20px;
+}
+
+#why-link:hover {
+	text-decoration: underline;
+}
+
+.gender label {
+	color: #212121;
+	padding: 10px;
+	font-family: sans-serif;
+	font-weight: 500;
+	font-size: 18px;
+}
+
+#right-content p.terms {
+	font-size: 11px;
+	font-family: sans-serif;
+}
+#right-content p.terms a {
+	text-decoration: none;
+}
+
+#right-content p.terms a:hover {
+	text-decoration: underline;
+}
+
+.sign-up-btn {
+	width: 194px;
+	height: 39px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	color: white;
+	background: linear-gradient(#67ae55, #578843);
+	background-color: #69a74e;
+	box-shadow: inset 0 1px 1px #a4e388;
+	border-color: #3b6e22 #3b6e22 #2c5115;
+	border-radius: 7px;
+	border-style: solid;
+}
+
+.sgn-up {
+	text-shadow: 1px 1px #414141;
+}
+
+.hrz-brk {
+	margin-top: 20px;
+  	border-top: 1px solid #dddfe2;
+}
+
+.create {
+	font-family: helvetica, sans-serif;
+	font-size: 13px;
+}
+
+.create a {font-weight: bold;}
+
+
+
+
+/*********************************************************
+*********** FOOTER *************************/
+
+footer {
+	background-color: white;
+}
+
+.ftr-wrp {
+	width: 980px;
+	height: auto;
+	padding-bottom: 30px;
+	margin: 0 auto;
+}
+
+.lang {
+	padding: 0;
+}
+
+.lang li {
+	display: inline-block;
+	font-size: 12px;
+	padding-right: 10px;
+	padding-top: 10px;
+	
+}
+
+.lang-btn {
+	width: 30px;
+}
+
+.lang a:hover {
+	text-decoration: underline;
+}
+
+
+.first-tb-row, .second-tb-row, .third-tb-row {
+	font-size: 12px;
+}
+
+.first-tb-row td {
+	padding-top: 10px;
+	padding-right: 17px;
+
+}
+
+.second-tb-row td, .third-tb-row td {
+	padding-right: 17px;
+	padding-top: 6px;
+}
+
+table a:hover {
+	text-decoration: underline;
+}
+
+
+#page-footer {
+	font-size: 11px;
+	color: gray;
+}
+
+
+
+
